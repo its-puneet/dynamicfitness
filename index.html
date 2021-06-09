@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC FITNESS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="left">
+            <img src="images/logo.jpg" alt="">
+            <div>Dynamic Fitness</div>
+
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <section>
+        <div class="container1">
+            <h1>Be a part of Best Gym in Town</h1>
+            <h2>DYNAMIC FITNESS</h2>
+            <form action="noaction.py">
+                <div>
+                     <input type="text" placeholder="Enter First Name" required class="formd" >                    
+                </div>
+                <div>
+                 <input type="text" placeholder="Enter Last Name" required class="formd" />
+                </div>
+                <div>
+                    <select name = "dropdown"  required class="formd" >
+                        <option selected >Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                     </select>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter Email" required class="formd">
+                </div>
+                <div>
+                    <input type="number"  maxlength="10" placeholder="Enter MobileNo" required class="formd">
+                </div>
+                
+                <div>
+                    <select name = "dropdown"  required class="formd">
+                        <option selected >Morning(6AM-8AM)</option>
+                        <option>Evening(6PM-8PM)</option>
+                     </select>
+                </div>
+                <div>
+                    <input type = "file" name = "fileupload" accept = "image/*"  required class="formd" />
+                </div>
+                <div>
+                    <button type="submit" class="end">Submit</button>
+                    <button type="reset" class="end">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="container2">
+        <p class="quote">
+            "Sucess comes to those who sweat"
+        </p>
+    </div>
+    <footer>
+        <p class="footname"><span>DYNAMIC FITNESS</span>  &copy; 2021 All Rights Reserved <br><a href="index.html">www.dynamicfitness.com</a></p>
+    </footer>
+</body>
+
+</html>
